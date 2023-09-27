@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButto
 
 import PyPDF2
 
+
 def get_pdf_version(pdf_file):
     with open(pdf_file, 'rb') as f:
         # Lire les 20 premiers octets pour chercher la version du PDF
