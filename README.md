@@ -27,7 +27,6 @@
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
     - [🤖 Running get-meta-pdf](#-running-get-meta-pdf)
-    - [🧪 Tests](#-tests)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
@@ -88,11 +87,10 @@ The core functionality of this project is to allow users to select a PDF file an
 
 Please ensure you have the following dependencies installed on your system:
 
-`- ℹ️ Dependency 1`
+`- ℹ️ PyQt5`
 
-`- ℹ️ Dependency 2`
+`- ℹ️ PyPDF2`
 
-`- ℹ️ ...`
 
 ### 🔧 Installation
 
@@ -108,22 +106,14 @@ cd get-meta-pdf
 
 3. Install the dependencies:
 ```sh
-pip install -r requirements.txt
+pip install PyQt5 PyPDF2
 ```
 
 ### 🤖 Running get-meta-pdf
 
 ```sh
-python main.py
+python app.py
 ```
-
-### 🧪 Tests
-```sh
-pytest
-```
-
-
-
 
 ---
 
